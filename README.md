@@ -1,5 +1,5 @@
-# PCB_Control Description
-Github SVN repository for UBC Thunderbots PCB_Control Altium project files. 
+# PCB_RMII_Dongle Description
+Github SVN repository for UBC Thunderbots PCB_RMII_Dongle Altium project files. 
 
 # How to link repository with Altium Designer
 ## Required software
@@ -9,7 +9,7 @@ Github SVN repository for UBC Thunderbots PCB_Control Altium project files.
 
 ## Instructions
 1. Create a working branch of Master in github.
-1. Clone your working branch of UBC-Thunderbots/PCB_Control to your PC (i.e. C:/Documents/GitHub/PCB_Control)
+1. Clone your working branch of UBC-Thunderbots/PCB_RMII_Dongle to your PC (i.e. C:/Documents/GitHub/PCB_RMII_Dongle)
 2. In Altium Designer, navigate to **Preferences** -> **Data Management** -> **Version Control** and ensure *SVN - Subversion* is enabled and Version 1.9 is selected.
 4. In Altium Designer, navigate to **Preferences** -> **Data Management** -> **Design Repositories**.
 5. Within **Design Repositories** click on on *Connect To* -> *SVN*.
@@ -17,12 +17,12 @@ Github SVN repository for UBC Thunderbots PCB_Control Altium project files.
 
 Field | Selection/Input
 --- | ---
-Name | PCB_Control
-Default Checkout Path | *location of the cloned UBC-Thunderbots/PCB_MotorDriver repository (i.e. C:/Documents/GitHub/PCB_Control)*
+Name | PCB_RMII_Dongle
+Default Checkout Path | *location of the cloned UBC-Thunderbots/PCB_MotorDriver repository (i.e. C:/Documents/GitHub/PCB_RMII_Dongle)*
 Method | https
 Server | github.com
 Server Port | Default
-Repository Subfolder | /UBC-Thunderbots/PCB_Control
+Repository Subfolder | /UBC-Thunderbots/PCB_RMII_Dongle
 User Name | *your github login username*
 Password | *your github login password*
 
