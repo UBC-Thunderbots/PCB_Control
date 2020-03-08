@@ -1,5 +1,5 @@
-# PCB_RMII_Dongle Description
-Github SVN repository for UBC Thunderbots PCB_RMII_Dongle Altium project files. 
+﻿# PCB_RMII_Dongle Description
+Github SVN repository for UBC Thunderbots PCB_Power Altium project files. 
 
 # How to link repository with Altium Designer
 ## Required software
@@ -9,7 +9,7 @@ Github SVN repository for UBC Thunderbots PCB_RMII_Dongle Altium project files.
 
 ## Instructions
 1. Create a working branch of Master in github.
-1. Clone your working branch of UBC-Thunderbots/PCB_RMII_Dongle to your PC (i.e. C:/Documents/GitHub/PCB_RMII_Dongle)
+1. Clone your working branch of the UBC-Thunderbots/PCB_RMII_Dongle repo to your PC (i.e. C:/Documents/GitHub/PCB_RMII_Dongle)
 2. In Altium Designer, navigate to **Preferences** -> **Data Management** -> **Version Control** and ensure *SVN - Subversion* is enabled and Version 1.9 is selected.
 4. In Altium Designer, navigate to **Preferences** -> **Data Management** -> **Design Repositories**.
 5. Within **Design Repositories** click on on *Connect To* -> *SVN*.
@@ -17,7 +17,7 @@ Github SVN repository for UBC Thunderbots PCB_RMII_Dongle Altium project files.
 
 Field | Selection/Input
 --- | ---
-Name | PCB_RMII_Dongle
+Name | PCB_RMII_Dongle 
 Default Checkout Path | *location of the cloned UBC-Thunderbots/PCB_MotorDriver repository (i.e. C:/Documents/GitHub/PCB_RMII_Dongle)*
 Method | https
 Server | github.com
@@ -29,6 +29,33 @@ Password | *your github login password*
 7. Click *Test* and pray.
 8. Celebrate!
 
-After your repository is connected, you can add or remove files like a regular Altium Project folder and then commit them from within Altium Designer by right-clicking on any project files in the **Projects** and hovering the mouse cursor over **Version Control**. After you have finished making changes to your branch, submit a pull request to merge it with Master.
+After your repository is connected, you can add or remove files like a regular Altium Project folder and then commit them from within Altium Designer by right-clicking on any project files in the **Projects** and hovering the mouse cursor over **Version Control**.
 
 Reference page: https://forum.live.altium.com/#posts/235981/718003
+
+# Repository Structure
+
+At the highest level, there should be the most up to date board revisions, e.g.
+`power-v2.0/`. Any previous versions should be placed in `archive/`. Every board revision directory should abide by the following structure:
+
+```
+<name-v#>/
+├── doc/
+│   ├── <name>.pdf
+│   └── <name>.xslx or <name>.csv
+├── pcb/
+│   ├── guidelines/
+│   ├── <name>.PrjPCB
+│   ├── <name>.SchDoc
+│   └── <name>.PcbDoc
+├── sim/
+```
+
+## doc/
+For documentation and relevant non-simulation and layout files. This includes PDFs of the design and bills of materials (`*.xlsx` or `.csv` format).
+
+## pcb/
+For any PCB design software files related to the schematic capture and PCB layout of board. This also includes schematic and PCB layout guidelines (`guidelines/`).
+
+## sim/
+For any simulation files related to the PCB design here. 

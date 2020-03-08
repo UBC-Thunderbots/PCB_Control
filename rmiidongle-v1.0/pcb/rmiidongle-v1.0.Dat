@@ -1,0 +1,21 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~rmiidongle-v1.0.PrjPcb|ReportField=ProjectFullPath~C:\Users\Hannah\Desktop\Thunderbots\PCB_RMII_Dongle\rmiidongle-v1.0\pcb\rmiidongle-v1.0.PrjPcb|ReportField=Title~Bill of Materials For Project [rmiidongle-v1.0.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~3:03:34 PM|ReportField=ReportDate~2020-03-08|ReportField=ReportDateTime~2020-03-08 3:03:34 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~41|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2020-03-08|ReportField=CurrentTime~3:03:31 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Hannah\Desktop\Thunderbots\PCB_RMII_Dongle\rmiidongle-v1.0\pcb\rmiidongle-v1.0.SchDoc|ReportField=DocumentName~rmiidongle-v1.0.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2020-02-18|ReportField=Organization~|ReportField=ProjectName~rmiidongle-v1.0.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~rmiidongle-v1.0.PrjPcb|ReportField=DataSourceFullPath~C:\Users\Hannah\Desktop\Thunderbots\PCB_RMII_Dongle\rmiidongle-v1.0\pcb\rmiidongle-v1.0.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|30pF|CAP CER 30PF 25V NP0 0805|C1, C2|0805|CAP 30pF 0805|2
+2|100nF|CAP CER 0.1UF 50V X7R 0805|C3, C6, C7, C8, C10, C11|0805|CAP 100nF 0805|6
+3|470pF|CAP CER 470PF 50V C0G/NPO 0805|C4|0805|CAP 470pF 0805|1
+4|1uF|CAP CER 1UF 50V X7R 0805|C5|0805|CAP 1uF 0805|1
+5|10uF|10µF Molded Tantalum Capacitors 10V 1206 (3216 Metric) 3.8Ohm|C9|1206 Polarized|CAP TANT 10UF 1206|1
+6|1nF|CAP CER 1000PF 50V X7R 0805|C12|0805|CAP 1nF 0805|1
+7|J00-0045NL|1 Port RJ45 Magjack Connector Through Hole 10/100 Base-TX, AutoMDIX|J1|RJ45 J00-0045NL|J00-0045NL|1
+8|IND 100UH 50MA 4 OHM SMD|100µH Unshielded Wirewound Inductor 50mA 4Ohm 0805 (2012 Metric)|L1|0805|IND 100UH 50MA 4 OHM SMD|1
+9|Header 7X2|Header, 7-Pin, Dual row|P1|HDR2X7|Header 7X2|1
+10|33|RES SMD 33 OHM 1% 1/8W 0805|R1, R4, R6, R7|0805|RES 33 0805|4
+11|10k|RES SMD 10K OHM 1% 1/8W 0805|R2, R5, R8, R9, R10, R21|0805|RES 10k 0805|6
+12|1.5k|RES SMD 1.5K OHM 1% 1/8W 0805|R3|0805|RES 1.5k 0805|1
+13|49.9|RES SMD 49.9 OHM 1% 1/8W 0805|R11, R12, R13, R14|0805|RES 49.9 0805|4
+14|12.1k|RES SMD 12.1K OHM 1% 1/8W 0805|R15|0805|RES 12.1k 0805|1
+15|75|RES SMD 75 OHM 1% 1/8W 0805|R16, R17, R18, R19|0805|RES 75 0805|4
+16|270|RES SMD 270 OHM 5% 1/8W 0805|R20, R22|0805|RES 270 0805|2
+17|H1102NLT|Isolation and Data Interface _Encapsulated_ Pulse Transformer 1:1 Transmitter, 1:1 Receiver Surface Mount|T1|TRANSFORMER|H1102NLT|1
+18|LAN8742A-CZ-TR|LAN8742A-CZ-TR - Small Footprint RMII 10/100 Ethernet, Transceiver with HP Auto-MDIX and flexPWR Technology SQFN-24|U1|24-QFN (4x4)|LAN8742A-CZ-TR|1
+19|USBLC6-4SC6||U2|SOT23-6L|USBLC6-4SC6|1
+20|CRYSTAL 25.0000MHZ 8PF SMD|25MHz ±50ppm Crystal 8pF 70 Ohms 2-SMD, No Lead|XTAL1|SMD-2|XTAL 25MHZ 8PF SMD|1

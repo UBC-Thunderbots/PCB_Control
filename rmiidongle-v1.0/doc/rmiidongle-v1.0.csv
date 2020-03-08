@@ -1,0 +1,22 @@
+Comment,Designator,Description,Digikey,Digikey Link,Footprint,MF,MP,Quantity,Rating
+,,,,,,,,,
+30pF,"C1, C2",CAP CER 30PF 25V NP0 0805,399-17444-1-ND,https://www.digikey.ca/product-detail/en/kemet/C0805C300M3GAC7800/399-17444-1-ND/8570411,805,Yageo,C0805C300M3GAC7800,2,25V
+100nF,"C3, C6, C7, C8, C10, C11",CAP CER 0.1UF 50V X7R 0805,311-1140-1-ND,https://www.digikey.ca/products/en?keywords=311-1140-1-ND,805,Yageo,CC0805KRX7R9BB104,6,50V
+470pF,C4,CAP CER 470PF 50V C0G/NPO 0805,311-1119-1-ND,https://www.digikey.ca/products/en?keywords=311-1119-1-ND,805,Yageo,CC0805JRNPO9BN471,1,50V
+1uF,C5,CAP CER 1UF 50V X7R 0805,1276-1029-1-ND,https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21B105KBFNNNE/1276-1029-1-ND/3889115,805,Samsung Electro-Mechanics,CL21B105KBFNNNE,1,50V
+10uF,C9,10µF Molded Tantalum Capacitors 10V 1206 (3216 Metric) 3.8Ohm,399-3684-1-ND,https://www.digikey.ca/product-detail/en/kemet/T491A106K010AT/399-3684-1-ND/819009,1206 Polarized,KEMET,T491A106K010AT,1,
+1nF,C12,CAP CER 1000PF 50V X7R 0805,311-1127-1-ND,https://www.digikey.ca/products/en?keywords=311-1127-1-ND,805,Yageo,CC0805KRX7R9BB102,1,50V
+J00-0045NL,J1,"1 Port RJ45 Magjack Connector Through Hole 10/100 Base-TX, AutoMDIX",553-1619-5-ND,https://www.digikey.com/product-detail/en/pulse-electronics-network/J00-0045NL/553-1619-5-ND/1036860?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol,RJ45 J00-0045NL,Pulse Electronics,J00-0045NL,1,
+IND 100UH 50MA 4 OHM SMD,L1,100µH Unshielded Wirewound Inductor 50mA 4Ohm 0805 (2012 Metric),587-2048-1-ND,https://www.digikey.ca/product-detail/en/taiyo-yuden/LBR2012T101K/587-2048-1-ND/1788995,805,Taiyo Yuden,LBR2012T101K,1,
+Header 7X2,P1,"Header, 7-Pin, Dual row",,,HDR2X7,,,1,
+33,"R1, R4, R6, R7",RES SMD 33 OHM 1% 1/8W 0805,311-33.0CRCT-ND,https://www.digikey.ca/product-detail/en/yageo/RC0805FR-0733RL/311-33.0CRCT-ND/730809,805,Yageo,RC0805FR-0733RL,4,0.125W
+10k,"R2, R5, R8, R9, R10, R21",RES SMD 10K OHM 1% 1/8W 0805,311-10.0KCRCT-ND,https://www.digikey.ca/products/en?keywords=311-10.0KCRCT-ND,805,Yageo,RC0805FR-0710KL,6,0.125W
+1.5k,R3,RES SMD 1.5K OHM 1% 1/8W 0805,311-1.50KCRCT-ND,https://www.digikey.ca/product-detail/en/yageo/RC0805FR-071K5L/311-1.50KCRCT-ND/730443,805,Yageo,RC0805FR-071K5L,1,0.125W
+49.9,"R11, R12, R13, R14",RES SMD 49.9 OHM 1% 1/8W 0805,311-49.9CRCT-ND,https://www.digikey.ca/product-detail/en/yageo/RC0805FR-0749R9L/311-49.9CRCT-ND/730931,805,Yageo,RC0805FR-0749R9L,4,0.125W
+12.1k,R15,RES SMD 12.1K OHM 1% 1/8W 0805,311-12.1KCRCT-ND,https://www.digikey.ca/product-detail/en/yageo/RC0805FR-0712K1L/311-12.1KCRCT-ND/730517,805,Yageo,RC0805FR-0712K1L,1,0.125W
+75,"R16, R17, R18, R19",RES SMD 75 OHM 1% 1/8W 0805,311-75.0CRCT-ND,https://www.digikey.ca/product-detail/en/yageo/RC0805FR-0775RL/311-75.0CRCT-ND/731079,805,Yageo,RC0805FR-0775RL,4,0.125W
+270,"R20, R22",RES SMD 270 OHM 5% 1/8W 0805,311-270ARCT-ND,https://www.digikey.ca/product-detail/en/yageo/RC0805JR-07270RL/311-270ARCT-ND/731238,805,Yageo,RC0805JR-07270RL,2,0.125W
+H1102NLT,T1,"Isolation and Data Interface _Encapsulated_ Pulse Transformer 1:1 Transmitter, 1:1 Receiver Surface Mount",553-1323-5-ND,https://www.digikey.ca/en/products/detail/pulse-electronics-network/H1102NL/1036940?s=N4IgTCBcDaIBIEYEAYwDkAyIC6BfIA,TRANSFORMER,Pulse Electronics,H1102NL,1,
+LAN8742A-CZ-TR,U1,"LAN8742A-CZ-TR - Small Footprint RMII 10/100 Ethernet, Transceiver with HP Auto-MDIX and flexPWR Technology SQFN-24",LAN8742A-CZ-CT-ND,https://www.digikey.ca/product-detail/en/microchip-technology/LAN8742A-CZ-TR/LAN8742A-CZ-CT-ND/8256089,24-QFN (4x4),Microchip Technology,LAN8742A-CZ-TR,1,
+USBLC6-4SC6,U2,,,,SOT23-6L,,,1,
+CRYSTAL 25.0000MHZ 8PF SMD,XTAL1,"25MHz ±50ppm Crystal 8pF 70 Ohms 2-SMD, No Lead",644-1041-1-ND,https://www.digikey.ca/product-detail/en/ndk-america-inc/NX5032GA-25.000000MHZ-LN-CD-1/644-1041-1-ND/1128913,SMD-2,"NDK America, Inc.",NX5032GA-25.000000MHZ-LN-CD-1,1,
