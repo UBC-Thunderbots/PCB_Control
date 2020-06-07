@@ -2,7 +2,11 @@
 
 ## Description
 
+<<<<<<< HEAD
 This repository contains Altium PCB files for UBC Thunderbots' rmii_dongle pcb. Anyone who wishes to push changes to this project must get permission from the current Electrical Team Lead.
+=======
+This repository contains Altium PCB files for UBC Thunderbots' control pcb. Anyone who wishes to push changes to this project must get permission from the current Electrical Team Lead.
+>>>>>>> 8b511ad56f00906d54adc376b4767a7e6fe885da
 
 ## Getting Started
 
@@ -44,7 +48,11 @@ To enforce component and board compatibility, the Altium_Libraries repository is
 ## Repository Structure
 
 At the highest level, there should be the most up to date board revisions, (e.g.
+<<<<<<< HEAD
 `rmii_dongle-v1.0/`), `archive/`, and `Altium_Libraries/`. Any previous versions should be placed in `archive/`. Every board revision directory should abide by the following structure:
+=======
+`control-v1.0/`), `archive/`, and `Altium_Libraries/`. Any previous versions should be placed in `archive/`. Every board revision directory should abide by the following structure:
+>>>>>>> 8b511ad56f00906d54adc376b4767a7e6fe885da
 
 ```
 <name-v#>/
